@@ -45,5 +45,3 @@ function exerciseDog(dogName, dogBreed) {
   }
   return functionCallArray
 }
-
-debugger
