@@ -29,5 +29,5 @@ const routine = [
 
 
 const exerciseDog = function(dogName, dogBreed) {
-  return routine.map(function(dogName, dogBreed));
+  return routine.map(action => action(dogName, dogBreed));
 }
